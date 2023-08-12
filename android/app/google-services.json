@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "969352970346",
+    "firebase_url": "https://click-33a39-default-rtdb.firebaseio.com",
+    "project_id": "click-33a39",
+    "storage_bucket": "click-33a39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969352970346:android:9151a3b0c5cb0dfe5e0a13",
+        "android_client_info": {
+          "package_name": "com.example.flitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969352970346-58ln83nd8bejtl300ep5s6sp9g2mmb5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIc03CVhEm8xLCJgtIRKwQF_F-18nWzBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969352970346-58ln83nd8bejtl300ep5s6sp9g2mmb5l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "969352970346-5vkdajj2ujas22qotsvo9f5b139hrmq0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tutorial.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969352970346:android:d5ad6b8d747c897e5e0a13",
+        "android_client_info": {
+          "package_name": "com.example.level1verison"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969352970346-58ln83nd8bejtl300ep5s6sp9g2mmb5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIc03CVhEm8xLCJgtIRKwQF_F-18nWzBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969352970346-58ln83nd8bejtl300ep5s6sp9g2mmb5l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "969352970346-5vkdajj2ujas22qotsvo9f5b139hrmq0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tutorial.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969352970346:android:29f97912d6d67e0f5e0a13",
+        "android_client_info": {
+          "package_name": "com.example.tutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969352970346-58ln83nd8bejtl300ep5s6sp9g2mmb5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIc03CVhEm8xLCJgtIRKwQF_F-18nWzBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969352970346-58ln83nd8bejtl300ep5s6sp9g2mmb5l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "969352970346-5vkdajj2ujas22qotsvo9f5b139hrmq0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tutorial.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
