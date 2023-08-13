@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:level1version/MyDetailsScreen.dart';
 import 'package:level1version/MyTransactions.dart';
-import 'package:level1version/PurchaseScreen.dart';
 import 'AddProduct.dart';
-import 'settings_screen.dart';
-import 'HelpScreen.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -29,7 +26,7 @@ class Homepage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text('Welcome to OurGarden',
-                      style: TextStyle(fontSize: 24, color: Colors.white)),
+                      style: TextStyle(fontSize: 20, color: Colors.white)),
                   SizedBox(height: 8),
                   CircleAvatar(
                     radius: 30,
@@ -48,28 +45,17 @@ class Homepage extends StatelessWidget {
               },
             ),
             ListTile(
-              leading:const Icon(Icons.home),
-              title: const Text('asdf'),
+              leading:const Icon(Icons.list),
+              title: const Text('Search Products'),
               onTap: () {
                 Navigator.pop(context);
               },
             ),
             ListTile(
-              leading:const Icon(Icons.settings),
-              title: const Text('Settings'),
+              leading:const Icon(Icons.map),
+              title: const Text('Whats near me'),
               onTap: () {
                 Navigator.pop(context);
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => SettingsScreen()));
-              },
-            ),
-            ListTile(
-              leading:const Icon(Icons.help),
-              title: const Text('Help'),
-              onTap: () {
-                Navigator.pop(context);
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => HelpScreen()));
               },
             ),
         ListTile(
@@ -82,16 +68,7 @@ class Homepage extends StatelessWidget {
           },
         ),
             ListTile(
-              leading: Icon(Icons.credit_card),
-              title: const Text('Purchase'),
-              onTap: () {
-                Navigator.pop(context);
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => PurchaseScreen()));
-              },
-            ),
-            ListTile(
-              leading: const Icon(Icons.list_alt),
+              leading: const Icon(Icons.money),
               title:const Text('My Transactions'),
               onTap: () {
                 Navigator.pop(context);
@@ -100,8 +77,26 @@ class Homepage extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.add_business),
-              title: const Text('Add Product'),
+              leading: const Icon(Icons.trolley),
+              title: const Text('Add new Product (SELLER ONLY)'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => AddProduct()));
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.warehouse),
+              title: const Text('My Products (SELLER ONLY)'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => AddProduct()));
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.person),
+              title: const Text('set location (SELLER ONLY)'),
               onTap: () {
                 Navigator.pop(context);
                 Navigator.push(context,
