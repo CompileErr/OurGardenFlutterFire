@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:level1verison/MyDetailsScreen.dart';
-import 'package:level1verison/MyTransactions.dart';
-import 'package:level1verison/PurchaseScreen.dart';
+import 'package:level1version/MyDetailsScreen.dart';
+import 'package:level1version/MyTransactions.dart';
+import 'package:level1version/PurchaseScreen.dart';
 import 'AddProduct.dart';
 import 'settings_screen.dart';
 import 'HelpScreen.dart';
@@ -24,7 +24,7 @@ class Homepage extends StatelessWidget {
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
-            DrawerHeader(
+            const DrawerHeader(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
@@ -32,7 +32,7 @@ class Homepage extends StatelessWidget {
                       style: TextStyle(fontSize: 24, color: Colors.white)),
                   SizedBox(height: 8),
                   CircleAvatar(
-                    radius: 40,
+                    radius: 30,
                     backgroundImage:
                     AssetImage('assets/images/ourgarden_logo.png'),
                   ),
@@ -43,6 +43,13 @@ class Homepage extends StatelessWidget {
             ListTile(
               leading:const Icon(Icons.home),
               title: const Text('Home'),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading:const Icon(Icons.home),
+              title: const Text('asdf'),
               onTap: () {
                 Navigator.pop(context);
               },
@@ -71,7 +78,7 @@ class Homepage extends StatelessWidget {
           onTap: () {
             Navigator.pop(context);
             Navigator.push(context,
-                MaterialPageRoute(builder: (context) => MyDeatailsScreen()));
+                MaterialPageRoute(builder: (context) => MyDetailsScreen()));
           },
         ),
             ListTile(
